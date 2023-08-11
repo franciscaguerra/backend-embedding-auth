@@ -11,7 +11,7 @@ const conn = createPool({
   host: 'beyxl2fdnpiory1jhqi7-mysql.services.clever-cloud.com',
   database: 'beyxl2fdnpiory1jhqi7',
   user: 'u78sao3di83yranz',
-  password: 'u78sao3di83yranz',
+  password: 'S6CDYVeQBGf10uyoIMJJ',
   port: '3306'
 })
 
