@@ -8,11 +8,11 @@ const port = 4000
 app.use(express.json(), cors())
 
 const conn = createPool({
-  host: process.env.HOST,
-  database: process.env.DATABASE,
-  user: process.env.USER,
-  password: process.env.PASSWORD,
-  port: process.env.PORT
+  host: 'beyxl2fdnpiory1jhqi7-mysql.services.clever-cloud.com',
+  database: 'beyxl2fdnpiory1jhqi7',
+  user: 'u78sao3di83yranz',
+  password: 'u78sao3di83yranz',
+  port: '3306'
 })
 
 app.post('/signup', (req, res) => {
